@@ -1,0 +1,5 @@
+How to find out where Python is installed on windows ?
+1.) python -c "import os, sys; print(os.path.dirname(sys.executable))"
+2.) where python 
+3.) which python
+
