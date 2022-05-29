@@ -1,0 +1,48 @@
+Look up a git command
+git verb -h
+
+Stage files
+git add file_name
+
+Unstage
+git reset HEAD file_name
+
+Look at Status
+git status
+Try the short tag
+git status -s
+
+Look at the changes that have not been staged
+git diff
+Look at the changes that have been staged but not committed
+git diff --staged 
+
+Commit with a message
+git commit -m "my message"
+Commit without staging
+git commit -a -m "my message"
+
+Remove a file
+rm file_name
+Stage the removal. (git rm takes regex expression, not just file name)
+git rm 
+Keep the file on directory but remove it from staging
+git rm --cached file_name
+
+Rename a file
+git mv current_file_name new_file_name
+
+Git log (LOTS OF OPTIONS, look it up online)
+git log 
+Git log show diff (can limit number)
+git log -p -2 (Limit to 2)
+Git log limit to file
+git log -- file_name
+Some common option 
+--since date_time
+--author
+--commiter
+--grep
+
+Unstage 
+
